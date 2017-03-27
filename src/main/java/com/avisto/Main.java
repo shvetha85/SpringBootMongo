@@ -27,7 +27,7 @@ public class Main  implements CommandLineRunner{
     @Override
     public void run(String... args) throws Exception {
         repo.deleteAll();
-            repo.save(new Customer(1, "kittu", "kolu"));
+            repo.save(new Customer(1, "kittuss", "kolu"));
             repo.save(new Customer(2, "somu", "kol34"));
             repo.save(new Customer(3, "kipot", "kol09"));
             repo.save(new Customer(4, "kittulo", "kolu64"));
