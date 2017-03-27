@@ -1,0 +1,22 @@
+branch-defaults:
+  default:
+    environment: SpringBoot-dev
+deploy:
+    artifact: target/SpringBoot-1.0-SNAPSHOT.jar
+environment-defaults:
+  SpringBoot-dev:
+    branch: null
+    repository: null
+
+global:
+  application_name: SpringBoot
+  default_ec2_keyname: null
+  default_platform: arn:aws:elasticbeanstalk:us-west-2::platform/Java 8 running on
+    64bit Amazon Linux/2.4.3
+  default_region: us-west-2
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  sc: null
+  workspace_type: Application
